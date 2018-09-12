@@ -1,0 +1,7 @@
+REG : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+ADD : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+SUB : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+COMP : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+MUX2x1 : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+SHR : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+SHL : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit

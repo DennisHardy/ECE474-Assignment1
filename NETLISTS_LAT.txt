@@ -1,0 +1,4 @@
+circuit1 : EstimatedCriticalPath ActualCriticalPath
+circuit2 : EstimatedCriticalPath ActualCriticalPath
+circuit3 : EstimatedCriticalPath ActualCriticalPath
+circuit4 : EstimatedCriticalPath ActualCriticalPath
