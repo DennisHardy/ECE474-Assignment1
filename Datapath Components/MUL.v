@@ -1,0 +1,18 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Engineer: Dennis Hardy
+// Module: MUL
+//
+//////////////////////////////////////////////////////////////////////////////////
+
+module REG #(parameter WIDTH = 8) (a, b, prod);
+   input [WIDTH-1:0] a, b;
+
+   output reg [2*WIDTH-1:0] prod;
+
+   always @ (a, b) begin
+      prod <= a*b;
+   end
+
+endmodule // REG
