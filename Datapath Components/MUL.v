@@ -6,7 +6,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-module REG #(parameter WIDTH = 8) (a, b, prod);
+module MUL #(parameter WIDTH = 8) (a, b, prod);
    input [WIDTH-1:0] a, b;
 
    output reg [2*WIDTH-1:0] prod;
@@ -15,4 +15,4 @@ module REG #(parameter WIDTH = 8) (a, b, prod);
       prod <= a*b;
    end
 
-endmodule // REG
+endmodule // MUL
