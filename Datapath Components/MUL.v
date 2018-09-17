@@ -6,10 +6,10 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-module MUL #(parameter WIDTH = 8) (a, b, prod);
-   input [WIDTH-1:0] a, b;
+module MUL #(parameter DATAWIDTH = 8) (a, b, prod);
+   input [DATAWIDTH-1:0] a, b;
 
-   output reg [2*WIDTH-1:0] prod;
+   output reg [2*DATAWIDTH-1:0] prod;
 
    always @ (a, b) begin
       prod <= a*b;

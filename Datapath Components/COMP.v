@@ -6,8 +6,8 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-module COMP #(parameter WIDTH = 8) (a, b, gt, lt, eq);
-   input [WIDTH-1:0] a, b;
+module COMP #(parameter DATAWIDTH = 8) (a, b, gt, lt, eq);
+   input [DATAWIDTH-1:0] a, b;
    output reg gt, lt, eq;
 
    always @ (a, b) begin

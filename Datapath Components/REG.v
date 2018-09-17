@@ -6,15 +6,15 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-module REG #(parameter WIDTH = 8) (d, Clk, Rst, q);
-   input [WIDTH-1:0] d;
+module REG #(parameter DATAWIDTH = 8) (d, Clk, Rst, q);
+   input [DATAWIDTH-1:0] d;
    input Clk, Rst;
 
-   output reg [WIDTH-1:0] q;
+   output reg [DATAWIDTH-1:0] q;
 
    always @ (posedge Clk) begin
       if (Rst) begin
-         q = {WIDTH{1'b0}};;
+         q = {DATAWIDTH{1'b0}};
       end
       else begin
          q <= d;
