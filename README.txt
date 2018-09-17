@@ -7,7 +7,7 @@ Group Members:
 
 Xilinx synthesis tool version:
 
-Target FPGA: Xilinx Artix-7 FPGA (XC7A100T)
+Target FPGA: Xilinx Artix-7 FPGA (xc7a100tcsg324-1)
    Speed grade:
 
 Critical Path Calculation Method:
