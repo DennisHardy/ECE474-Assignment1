@@ -1,0 +1,8 @@
+REG : 4.920 5.173 5.411 6.518 7.580
+ADD : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+SUB : Latency2bit Latency8bit Latency16bit Latency32bit Latency64bit
+MUL : 7.286 13.346 12.574 20.991 25.828
+COMP : 7.311 9.616 9.823 10.675 13.836
+MUX2x1 : 7.235 7.828 8.758 11.698 14.563
+SHR : 7.093 8.645 11.113 16.353 18.331
+SHL : 7.232 8.954 10.818 15.689 19.893
