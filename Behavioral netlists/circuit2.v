@@ -17,8 +17,8 @@ SUB SUB1(a,b,f);
 COMP COMP1(1,2,,dLTe,dEQe);
 MUX2x1 MUX1(d,e,g,dLTe);
 MUX2x1 MUX2(g,f,h,dEQe);
-SHL SHL1(g,dLTe,xwire);
-SHR SHR1(h,dEQe,zwire);
+SHL SHL1(g,xwire,dLTe);
+SHR SHR1(h,zwire,dEQe);
     always @(xwire,zwire) begin
     x <= xwire;
     z <= zwire;
