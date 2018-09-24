@@ -5,11 +5,14 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module Circuit1 #(parameter DATAWIDTH = 8)(a,b,c,z,x);
-input [DATAWIDTH-1:0] a,b,c;
-output reg [DATAWIDTH-1:0] z,x;
-wire [DATAWIDTH-1:0] d,e,f, xwire;
-wire g ;
+module Circuit1 (a,b,c,z,x);
+    input [7:0] a,b,c;
+    output reg [7:0] z;
+    output reg [15:0] z;
+    wire [8:0] d,e;
+    wire [15:0] f,g;
+    wire [15:0] xwire;
+
     ADD ADD1(a,b,d);
     ADD ADD2(a,c,e);
     COMP COMP1(d,e,g,,);
