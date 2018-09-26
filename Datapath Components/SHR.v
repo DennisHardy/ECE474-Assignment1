@@ -6,7 +6,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-module SHL #(parameter DATAWIDTH = 64) (a, d, sh_amt);
+module SHR #(parameter DATAWIDTH = 64) (a, d, sh_amt);
    input [DATAWIDTH-1:0] a;
    input [DATAWIDTH-1:0] sh_amt;
    output reg [DATAWIDTH-1:0] d;
