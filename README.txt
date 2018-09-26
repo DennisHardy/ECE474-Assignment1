@@ -5,8 +5,7 @@ Group Members:
    Zi Wang: ziwang
    Zachary Alvarez: zac4
 
-Xilinx synthesis tool version: Vivado 2018.2 WebPACK Edition (uncertain)
-
+Xilinx synthesis tool version: Vivado 2018.2 WebPACK Edition
 Target FPGA: Xilinx Artix-7 FPGA (xc7a100tcsg324-1)
 Speed grade: 4mA
 
