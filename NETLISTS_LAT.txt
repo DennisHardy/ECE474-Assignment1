@@ -1,4 +1,4 @@
-circuit1 : 26.137 12.554
-circuit2 : 64.762 12.014
+circuit1 : 28.558 12.554
+circuit2 : 64.762 ActualCriticalPath
 circuit3 : 86.139 ActualCriticalPath
 circuit4 : 87.008 ActualCriticalPath
