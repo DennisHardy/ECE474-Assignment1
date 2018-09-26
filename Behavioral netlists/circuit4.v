@@ -6,7 +6,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Circuit1 (a,b,c,z,x,Clk,Rst);
+module Circuit4 (a,b,c,z,x,Clk,Rst);
 input [63:0] a,b,c;
 input Clk,Rst;
 output reg [31:0] z,x;
@@ -26,7 +26,7 @@ wire [63:0] greg,hreg;
     REG #(.DATAWIDTH(64)) REG2(h,Clk,Rst,hreg);
     SHL #(.DATAWIDTH(64)) SHL1(hreg,xrin,dLTe);
     SHL #(.DATAWIDTH(64)) SHL2(greg,zrin,dEQe);
-    REG #(.DATAWIDTH()) REG3(xrin,Clk,Rst,x);
-    REG #(.DATAWIDTH()) REG4(zrin,Clk,Rst,z);
+    REG #(.DATAWIDTH(64)) REG3(xrin,Clk,Rst,x);
+    REG #(.DATAWIDTH(64)) REG4(zrin,Clk,Rst,z);
     
 endmodule
