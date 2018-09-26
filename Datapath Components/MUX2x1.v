@@ -11,11 +11,11 @@ module MUX2x1 #(parameter DATAWIDTH = 64) (a, b, sel, out);
    input sel;
    output reg [DATAWIDTH-1:0] out;
 
-   always @ (sel) begin
-      if(sel) begin
+   always @ (sel, a, b) begin
+      if(sel == 1'b1) begin
          out <= a;
       end
-   else begin
+      else begin
          out <= b;
       end
    end
