@@ -14,7 +14,7 @@ module REG #(parameter DATAWIDTH = 8) (d, Clk, Rst, q);
 
    always @ (posedge Clk) begin
       if (Rst) begin
-         q = {DATAWIDTH{1'b0}};
+         q <= {DATAWIDTH{1'b0}};
       end
       else begin
          q <= d;
