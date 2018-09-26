@@ -2,7 +2,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer: Zachary Alvarez
 // Module: Circuit4
-// 
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -28,5 +28,5 @@ wire [63:0] greg,hreg;
     SHL #(.DATAWIDTH(64)) SHL2(greg,zrin,dEQe);
     REG #(.DATAWIDTH(32)) REG3(xrin,Clk,Rst,x);
     REG #(.DATAWIDTH(32)) REG4(zrin,Clk,Rst,z);
-    
+
 endmodule
